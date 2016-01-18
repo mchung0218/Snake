@@ -1,0 +1,30 @@
+h1 {
+	width:220px;
+	margin: 0 auto;
+}
+.container {
+	width: 600px;
+	margin: 0 auto;
+
+}
+.grid {
+	width: 400px;
+	height: 400px;
+	margin: 0 auto;
+	border: 1px solid #000000;
+}
+.grid div {
+	background-color: #ffffff;
+	width: 8px;
+	height: 8px;
+	border: 1px solid #cfcfcf;
+	float: left;
+}
+
+div.snake {
+	background-color: green;
+}
+
+div.food {
+	background-color:  black;
+}

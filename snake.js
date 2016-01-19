@@ -34,7 +34,7 @@ var snake = {
 			default: return;
 		}
 
-		if(snake.headPos[0] > 41 || snake.headPos[0] < 1 || snake.headPos[1] > 41 || snake.headPos[1] < 1){
+		if(snake.headPos[0] > 40 || snake.headPos[0] < 1 || snake.headPos[1] > 40 || snake.headPos[1] < 1){
 			reset();
 		}
 

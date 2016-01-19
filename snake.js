@@ -91,7 +91,7 @@ function reset(){
 	snake.direction = 'r';
 	snake.headPos = [20,20];
 	snake.bodyPos = [[20,20]];
-	confirm('Your snake died (;_;)7')
+	confirm('Your snake died ;_;7')
 }
 render();
 generateFood();
